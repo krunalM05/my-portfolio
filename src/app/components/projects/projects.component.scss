@@ -1,0 +1,80 @@
+/* Container & Cards */
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* spacing between cards */
+}
+
+.project-card {
+  background: white;
+  padding: 1.8rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Project Title */
+.project-card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #0d6efd; /* Bootstrap primary */
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid #0d6efd33; /* subtle underline */
+  padding-bottom: 3px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Company & Role */
+.company-role {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #212529;
+  margin-bottom: 0.25rem;
+  font-family: 'Arial', sans-serif;
+}
+
+.company-role span {
+  font-style: italic;
+  color: #6c757d;
+}
+
+/* Duration styling */
+.company-role::after {
+  content: "";
+  display: block;
+  margin-top: 2px;
+}
+
+/* Description */
+.description {
+  color: #495057;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+/* Responsibilities list */
+.project-card ul {
+  padding-left: 20px;
+  margin-bottom: 0.75rem;
+  color: #495057;
+  font-size: 0.93rem;
+  line-height: 1.5;
+}
+
+/* Tech Stack Chips */
+.tech-chip {
+  display: inline-block;
+  background: #eef2f7;
+  color: #444;
+  padding: 4px 10px;
+  margin: 3px 3px 0 0;
+  font-size: 0.85rem;
+  border-radius: 6px;
+  font-family: 'Arial', sans-serif;
+}

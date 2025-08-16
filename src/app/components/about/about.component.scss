@@ -1,0 +1,15 @@
+.social-square {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px; /* icon size */
+  padding: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-square:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}

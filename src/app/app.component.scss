@@ -1,0 +1,11 @@
+#home, #about, #skills, #experience, #projects, #contact {
+  scroll-margin-top: 80px;
+}
+@media (max-width: 768px) {
+  #home, #about, #skills, #experience, #projects, #contact {
+    scroll-margin-top: 60px; /* smaller navbar height on mobile */
+  }
+}
+.app-body{
+  background-color: rgba(0, 0, 0, 0.05);
+}
