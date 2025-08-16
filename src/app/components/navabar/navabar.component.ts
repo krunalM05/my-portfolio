@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-navabar',
   standalone: true,
-  imports: [RouterModule],
+  imports: [],
   templateUrl: './navabar.component.html',
   styleUrl: './navabar.component.scss'
 })

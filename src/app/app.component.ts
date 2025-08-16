@@ -1,5 +1,4 @@
 import { Component, HostListener } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { NavabarComponent } from './components/navabar/navabar.component';
 import { HomeComponent } from "./components/home/home.component";
 import { AboutComponent } from "./components/about/about.component";
@@ -12,7 +11,7 @@ declare var bootstrap: any;
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, NavabarComponent, HomeComponent, AboutComponent, ExperienceComponent, ContactComponent, ProjectsComponent, SkillsComponent, FooterComponent],
+  imports: [NavabarComponent, HomeComponent, AboutComponent, ExperienceComponent, ContactComponent, ProjectsComponent, SkillsComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
